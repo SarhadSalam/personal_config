@@ -1,0 +1,19 @@
+# Shortcut pathing
+alias ..="cd .."
+
+# Add colors , show file sizes
+
+alias ls="ls --color -l -h" 
+
+# Shortcuts to ls to be lazy :)
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Add colors to grep
+alias grep="grep -n --color"
+
+# tar
+alias tarr="tar -pczf $1 $2"
+alias untarr="tar -pxzf $1"
+alias starr="sudo tar -pczf $1 $2"
