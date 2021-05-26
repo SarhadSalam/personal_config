@@ -1,5 +1,4 @@
-sudo apt-get install vim python3 zsh build-essential openssh-server gedit
-
+sudo apt-get install vim python3 zsh build-essential openssh-server gedit git
 
 if [ $1 = "all"  ]
 then
