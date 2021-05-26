@@ -3,3 +3,6 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 source ~/.zshrc
 p10k configure
 clear
+
+echo "source ~/personal_config/config/.personal_zshrc" >> ~/.zshrc
+source ~/.zshrc
